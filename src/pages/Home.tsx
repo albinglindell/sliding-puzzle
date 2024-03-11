@@ -34,10 +34,6 @@ function Home() {
   return (
     <div className='homeContainer'>
         <div className="buttoncontainer">
-            <div className="instructionsContainter">
-            <h2>Instructions:</h2>
-        <p className='instructions'>To solve a sliding puzzle, locate the empty spot. Slide tiles into this spot to arrange them numerically, starting with 1. Continue moving the tiles, always into the empty space, until the numbers are in ascending order from smallest to largest.</p>
-            </div>
             <div className="rows">
                 <h2>Rows</h2>
         <div className="increase">
@@ -46,6 +42,7 @@ function Home() {
             <GoChevronDown onClick={()=>setRowsFunc("decrease")}/>
         </div>
             </div>
+            <h2 className='difficulty'>{rows} X {cols}</h2>
             <div className="cols">
                 <h2>Columns</h2>
         <div className="decrease">
