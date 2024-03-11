@@ -1,0 +1,29 @@
+.puzzleComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    margin-top: 50px;
+    .puzzle{ 
+        min-width: 50%;
+        aspect-ratio: 1;
+        display: grid;
+        gap: 2px;
+        background-color: black;
+        border: 15px solid black;
+        border-radius: 7px;
+    }
+    .buttonContainer{
+        display: flex;
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .puzzleComponent {
+        .puzzle{ 
+            min-width: 90%;
+    
+        }
+    }
+  }
