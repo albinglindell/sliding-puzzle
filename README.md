@@ -14,3 +14,5 @@ To test run following command in your terminal
 
 ### `npm start`
 
+Link to my livepage if you want to test it: https://sliding-puzzle-albin.netlify.app/
+
