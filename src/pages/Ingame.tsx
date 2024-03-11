@@ -3,7 +3,8 @@ import { useLocation } from 'react-router-dom'
 
 function Ingame() {
     const location = useLocation()
-    const { rows, cols } = location.state
+    let { rows, cols } = location.state ? location.state : { rows: 3, cols: 3 };
+
   return (
     <div className='ingameContainer'>
         <Puzzle rows={rows} cols={cols}/>
