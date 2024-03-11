@@ -34,6 +34,7 @@ function Home() {
   return (
     <div className='homeContainer'>
         <div className="buttoncontainer">
+        <h2 className='difficulty'>{rows} X {cols}</h2>
             <div className="rows">
                 <h2>Rows</h2>
         <div className="increase">
@@ -42,7 +43,6 @@ function Home() {
             <GoChevronDown onClick={()=>setRowsFunc("decrease")}/>
         </div>
             </div>
-            <h2 className='difficulty'>{rows} X {cols}</h2>
             <div className="cols">
                 <h2>Columns</h2>
         <div className="decrease">
