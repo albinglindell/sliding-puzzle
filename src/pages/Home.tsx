@@ -43,7 +43,7 @@ function Home() {
         </div>
             </div>
             <div className="cols">
-                <h2>Collums</h2>
+                <h2>Columns</h2>
         <div className="decrease">
             <GoChevronUp onClick={()=>setColsFunc("increase")} />
             <h2>{cols}</h2>
