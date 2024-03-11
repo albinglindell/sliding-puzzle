@@ -13,7 +13,7 @@ function Home() {
                     setRows(rows + 1)
                 }
             } else {
-                if(rows !== 2){
+                if(rows !== 3){
                     setRows(rows - 1)
                 }
             }
@@ -25,7 +25,7 @@ function Home() {
                     setCols(cols + 1)
                 }
             } else {
-                if(cols !== 2){
+                if(cols !== 3){
                     setCols(cols - 1)
                 }
             }
@@ -34,6 +34,10 @@ function Home() {
   return (
     <div className='homeContainer'>
         <div className="buttoncontainer">
+            <div className="instructionsContainter">
+            <h2>Instructions:</h2>
+        <p className='instructions'>To solve a sliding puzzle, locate the empty spot. Slide tiles into this spot to arrange them numerically, starting with 1. Continue moving the tiles, always into the empty space, until the numbers are in ascending order from smallest to largest.</p>
+            </div>
             <div className="rows">
                 <h2>Rows</h2>
         <div className="increase">

@@ -6,7 +6,7 @@
     width: 100%;
     margin-top: 50px;
     .puzzle{ 
-        min-width: 50%;
+        min-width: 40%;
         aspect-ratio: 1;
         display: grid;
         gap: 2px;
@@ -23,7 +23,6 @@
     .puzzleComponent {
         .puzzle{ 
             min-width: 90%;
-    
         }
     }
   }
